@@ -1,0 +1,16 @@
+{
+  "name": "gorillatroop-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gorilla Troop — static studio website",
+  "scripts": {
+    "start": "serve -s . -l ${PORT:-3000}",
+    "dev": "serve -s ."
+  },
+  "dependencies": {
+    "serve": "^14.2.6"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
