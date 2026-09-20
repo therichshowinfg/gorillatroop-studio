@@ -1,6 +1,7 @@
 FROM nginx:alpine
 
-COPY index.html about.html careers.html privacy.html terms.html styles.css favicon.svg /usr/share/nginx/html/
+COPY index.html about.html careers.html privacy.html terms.html press.html styles.css favicon.svg /usr/share/nginx/html/
+COPY assets /usr/share/nginx/html/assets
 
 # Railway injects PORT; nginx must listen on it.
 RUN echo 'server { \
@@ -9,7 +10,7 @@ RUN echo 'server { \
     root   /usr/share/nginx/html; \
     index  index.html; \
     location / { \
-        try_files $uri $uri/ /index.html; \
+        try_files $uri $uri.html $uri/ /index.html; \
     } \
     location ~* \.(css|svg|js|png|jpg|jpeg|gif|ico|woff2?)$ { \
         expires 7d; \

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Puzzle board">
+  <rect width="160" height="160" rx="10" fill="#071427" stroke="#163056"/>
+  <g fill="#0c1f3a" stroke="#c4a36a" stroke-opacity="0.22">
+    <rect x="10" y="10" width="15" height="15" rx="2"/><rect x="29" y="10" width="15" height="15" rx="2"/><rect x="48" y="10" width="15" height="15" rx="2"/><rect x="67" y="10" width="15" height="15" rx="2"/><rect x="86" y="10" width="15" height="15" rx="2"/><rect x="105" y="10" width="15" height="15" rx="2"/><rect x="124" y="10" width="15" height="15" rx="2"/><rect x="143" y="10" width="7" height="15" rx="2"/>
+  </g>
+  <g fill="#c4a36a">
+    <rect x="29" y="48" width="15" height="15" rx="2" opacity="0.85"/>
+    <rect x="48" y="48" width="15" height="15" rx="2" opacity="0.85"/>
+    <rect x="48" y="67" width="15" height="15" rx="2" opacity="0.7"/>
+    <rect x="67" y="67" width="15" height="15" rx="2" opacity="0.55"/>
+    <rect x="10" y="86" width="15" height="15" rx="2" opacity="0.9"/>
+    <rect x="29" y="86" width="15" height="15" rx="2" opacity="0.9"/>
+    <rect x="48" y="86" width="15" height="15" rx="2" opacity="0.9"/>
+    <rect x="67" y="86" width="15" height="15" rx="2" opacity="0.9"/>
+    <rect x="86" y="86" width="15" height="15" rx="2" opacity="0.9"/>
+    <rect x="105" y="86" width="15" height="15" rx="2" opacity="0.9"/>
+    <rect x="124" y="86" width="15" height="15" rx="2" opacity="0.9"/>
+    <rect x="86" y="105" width="15" height="15" rx="2" opacity="0.45"/>
+  </g>
+</svg>

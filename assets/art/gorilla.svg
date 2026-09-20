@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" role="img" aria-label="Gorilla">
+  <g fill="#c4a36a">
+    <ellipse cx="36" cy="96" rx="26" ry="30"/>
+    <ellipse cx="164" cy="96" rx="26" ry="30"/>
+    <ellipse cx="100" cy="108" rx="68" ry="76"/>
+    <ellipse cx="100" cy="148" rx="36" ry="28"/>
+  </g>
+  <g fill="#071427">
+    <path d="M48 98c16-18 88-18 104 0 2 2-2 6-6 4-18-12-70-12-92 0-4 2-8-2-6-4z"/>
+    <ellipse cx="78" cy="112" rx="7" ry="6"/>
+    <ellipse cx="122" cy="112" rx="7" ry="6"/>
+    <ellipse cx="100" cy="154" rx="12" ry="8" opacity="0.35"/>
+  </g>
+  <ellipse cx="100" cy="148" rx="28" ry="20" fill="#d4b57a"/>
+  <ellipse cx="100" cy="152" rx="11" ry="7" fill="#071427" opacity="0.28"/>
+</svg>
