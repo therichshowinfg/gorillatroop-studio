@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-COPY index.html about.html careers.html privacy.html terms.html press.html styles.css favicon.svg /usr/share/nginx/html/
+COPY index.html about.html careers.html privacy.html terms.html press.html roadmap.html styles.css favicon.svg /usr/share/nginx/html/
 COPY assets /usr/share/nginx/html/assets
 
 # Railway injects PORT; nginx must listen on it.

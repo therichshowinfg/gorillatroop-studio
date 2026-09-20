@@ -35,6 +35,9 @@ npx serve .
 | `/` | Studio home — S2 Two Doors |
 | `/about.html` | S3 Signal + Face |
 | `/press.html` | Press kit (unblocks Docker COPY) |
+| `/roadmap.html` | Upcoming titles on the two-month cadence |
 | `/careers.html` | Hiring status |
 | `/privacy.html` | Privacy stub |
 | `/terms.html` | Terms stub |
+
+Live titles are **SWIVEL** (`gyre.troop.games`) and **ORCHARD** (`orchard.troop.games`). Next title is **WRAP**, 20 Nov 2026.

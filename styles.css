@@ -170,7 +170,7 @@ nav a.is-active {
 }
 
 nav a.btn {
-  min-height: 2.55rem;
+  min-height: 2.75rem;
   padding: 0 1.15rem;
 }
 
@@ -416,13 +416,19 @@ nav a.btn {
   margin-top: 1rem;
 }
 
-.legal ul {
+.legal ul,
+.legal ol {
   padding-left: 1.2rem;
-  margin: 0.5rem 0 1rem;
+  margin: 1rem 0 1.25rem;
 }
 
 .legal li {
-  margin: 0.35rem 0;
+  margin: 0.55rem 0;
+}
+
+.legal strong {
+  color: var(--text);
+  font-weight: 600;
 }
 
 /* Footer */
