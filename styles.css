@@ -543,3 +543,221 @@ footer {
     transform: none;
   }
 }
+
+/* S2 — Two Doors */
+.page-doors {
+  background:
+    radial-gradient(1200px 480px at 50% -80px, color-mix(in srgb, var(--gold) 9%, transparent), transparent 70%),
+    var(--navy);
+}
+
+.doors-intro {
+  padding: 3.25rem 0 1.35rem;
+  text-align: center;
+}
+
+.doors-intro .kicker {
+  margin-bottom: 0.85rem;
+}
+
+.doors-intro h1 {
+  font-size: clamp(2.35rem, 6vw, 3.6rem);
+  max-width: 16ch;
+  margin-inline: auto;
+  letter-spacing: -0.03em;
+}
+
+.doors {
+  display: grid;
+  gap: 1.15rem;
+  grid-template-columns: 1fr;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 800px) {
+  .doors {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.35rem;
+    align-items: stretch;
+  }
+}
+
+.door {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.85rem;
+  background: var(--navy-mid);
+  border: 1px solid var(--navy-edge);
+  border-radius: calc(var(--radius) + 0.35rem);
+  padding: 1.55rem 1.45rem 1.65rem;
+  min-height: 26rem;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.door:hover,
+.door:focus-visible {
+  border-color: color-mix(in srgb, var(--gold) 55%, var(--navy-edge));
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
+
+.door-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 0;
+}
+
+.door-art {
+  position: relative;
+  width: 100%;
+  height: 12.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--navy);
+  border: 1px solid var(--navy-edge);
+}
+
+.door-art-studio {
+  background:
+    radial-gradient(circle at 50% 58%, color-mix(in srgb, var(--gold) 16%, transparent), transparent 62%),
+    var(--navy);
+}
+
+.door-board {
+  width: 8.75rem;
+  height: 8.75rem;
+}
+
+.door-ape {
+  width: 9.25rem;
+  height: auto;
+}
+
+.door-ape-play {
+  position: absolute;
+  width: 7.4rem;
+  right: 7%;
+  bottom: -0.35rem;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.35));
+}
+
+.door h2 {
+  font-size: clamp(1.28rem, 2.4vw, 1.5rem);
+}
+
+.door > p {
+  color: var(--muted);
+  font-size: 0.98rem;
+  flex: 1;
+}
+
+.door .btn {
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 720px) {
+  .doors-intro {
+    padding: 2.5rem 0 1.1rem;
+  }
+
+  .door {
+    min-height: 0;
+    padding: 1.35rem 1.2rem 1.45rem;
+  }
+
+  .door-art {
+    height: 10.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .door,
+  .door:hover {
+    transition: none;
+    transform: none;
+  }
+}
+
+/* S3 — Signal + Face */
+.page-signal {
+  background:
+    radial-gradient(900px 420px at 88% 8%, color-mix(in srgb, var(--gold) 11%, transparent), transparent 68%),
+    var(--navy);
+}
+
+.signal {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  padding: 3.5rem 0 2.75rem;
+}
+
+@media (min-width: 860px) {
+  .signal {
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 3rem;
+    padding: 4rem 0 3rem;
+  }
+}
+
+.signal-copy .hero-mark {
+  margin-bottom: 0.35rem;
+}
+
+.signal-copy h1 {
+  font-size: clamp(2.35rem, 6vw, 3.6rem);
+  max-width: 12ch;
+}
+
+.face-plate {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.face-plate img {
+  width: min(18rem, 78vw);
+  height: auto;
+  padding: 1.7rem;
+  border-radius: 50%;
+  border: 3px solid var(--gold);
+  background:
+    radial-gradient(circle at 50% 42%, var(--navy-mid), var(--navy) 70%);
+  box-shadow:
+    0 0 0 10px color-mix(in srgb, var(--gold) 14%, transparent),
+    0 18px 40px rgba(0, 0, 0, 0.28);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 720px) {
+  .signal {
+    padding: 2.5rem 0 1.75rem;
+    justify-items: center;
+    text-align: left;
+  }
+
+  .face-plate img {
+    width: min(14.5rem, 70vw);
+    padding: 1.35rem;
+  }
+}

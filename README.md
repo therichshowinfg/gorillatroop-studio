@@ -32,8 +32,9 @@ npx serve .
 
 | Path | Purpose |
 |------|---------|
-| `/` | Studio home |
-| `/about.html` | Studio purpose |
+| `/` | Studio home — S2 Two Doors |
+| `/about.html` | S3 Signal + Face |
+| `/press.html` | Press kit (unblocks Docker COPY) |
 | `/careers.html` | Hiring status |
 | `/privacy.html` | Privacy stub |
 | `/terms.html` | Terms stub |
