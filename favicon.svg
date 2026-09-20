@@ -8,6 +8,6 @@
     <ellipse cx="37" cy="56.5" rx="5.8" ry="6.2" fill="#071427"/>
     <ellipse cx="63" cy="56.5" rx="5.8" ry="6.2" fill="#071427"/>
     <ellipse cx="50" cy="74" rx="20.5" ry="15" fill="#d4b57a"/>
-    <path d="M39 75c4.8 7 17.2 7 22 0" fill="none" stroke="#071427" stroke-width="4.2" stroke-linecap="round"/>
+    <path fill="#071427" d="M42 77c3.6 2.6 12.4 2.6 16 0 .55-.4.1-1-.5-.75-3.4 1.7-11.1 1.7-14.5 0-.6-.25-1.05.35-.5.75z"/>
   </g>
 </svg>
